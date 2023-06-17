@@ -1,0 +1,19 @@
+[package]
+name = "cleasy"
+version = "1.0.0"
+description = "Making command-line interfaces in C easy"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libcleasy"
+repository = "https://github.com/thechampagne/libcleasy"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "cleasy"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+cleasy = { git = "https://github.com/angeldollface/cleasy", version = "1.4.0" }
