@@ -16,4 +16,4 @@ name = "cleasy"
 crate-type =["cdylib","staticlib"]
 
 [dependencies]
-cleasy = { git = "https://github.com/angeldollface/cleasy", version = "1.5.0" }
+cleasy = { git = "https://github.com/angeldollface/cleasy", version = "1.6.0" }
